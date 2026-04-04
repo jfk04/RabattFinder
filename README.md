@@ -20,8 +20,8 @@ For the UI I used React Native with Expo and for the backend I used express <br>
 - spliting up and conenecting frontend and backend
 - create an API for my server
 
-## 🚀 Possible Improvements
+<!-- ## 🚀 Possible Improvements
 
 ## ▶️ Running the Project
 
-## 🍿 Video
+## 🍿 Video -->
