@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Granini (1l)",
+    "price": "1,49 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Original Wagner Piccolinis (9 Stück)",
+    "price": "1,68 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Funny-Frisch Pombären (75-80g)",
+    "price": "1,11 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Arla Kaergarden (200g)",
+    "price": "1,49 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Milkana (190g)",
+    "price": "1,79 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Granini Trinkgenuss (1l)",
+    "price": "1,49 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Capri Sun (10 x 0,2l)",
+    "price": "3,49 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Gerolsteiner Mineralwasser (1,5l)",
+    "price": "0,89 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Coca-Cola Dose (0,33l)",
+    "price": "0,55 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Hella (0,75l)",
+    "price": "0,59 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Faxe (1l)",
+    "price": "1,79 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "San Miguel (0,33)",
+    "price": "0,67 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Nutella Croissant (4 x 85g)",
+    "price": "3,99 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Dr. Oetker Die Ofenfrische (382 - 435g)",
+    "price": "2,22 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Wagner Piccolinis (9 Stück)",
+    "price": "1,68 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Tradizionale Pizza (320 - 410g)",
+    "price": "2,22 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Arla Kaergarden (200g)",
+    "price": "1,49 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Milram Quark (185g)",
+    "price": "0,99 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Meggle Streichzart (400g)",
+    "price": "2,29 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Teekanne Ländertee (20 Stück)",
+    "price": "1,49 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Müller Milchreis (200g)",
+    "price": "0,59 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Zott Monte Snack (8 x 29g)",
+    "price": "1,99 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Choco Fresh (5 Stück)",
+    "price": "1,79 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Krüger Cappuccino (500g)",
+    "price": "2,79 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Dolce Gusto Kapseln (15 - 30 Stück)",
+    "price": "6,99 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Segafredo (1kg)",
+    "price": "12,88 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Exquisa (200g)",
+    "price": "1,11 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Milkana (190g)",
+    "price": "1,79 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Milram (125 - 175g)",
+    "price": "1,45 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Fol Epi Vorteilspack (11 Scheiben)",
+    "price": "2,99 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Rotkäppchen Grill&Pfanne (2x75g)",
+    "price": "2,49 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Saint Albray (180g)",
+    "price": "2,49 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Galbani Mozzarella (125g)",
+    "price": "1,11 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "yfood (500ml)",
+    "price": "2,99 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Bref Power (750ml)",
+    "price": "1,99 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Pombären (75-80g)",
+    "price": "1,11 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Funny-Frisch Kessel Chips (120g)",
+    "price": "1,49 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Freixenet Carta (0,75l)",
+    "price": "3,99 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Jules Mumm (0,75l)",
+    "price": "3,99 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "True Fruits Smoothie (250ml)",
+    "price": "1,16 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "True Fruits Smoothie (750ml)",
+    "price": "3,49 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Ouzo (0,7l)",
+    "price": "9,99 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Teacher's Whisky (0,7l)",
+    "price": "9,99 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Ouzo (1l)",
+    "price": "14,27 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Ferrero Hanuta (220g)",
+    "price": "2,79 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Amicelli (16 Stück)",
+    "price": "2,99 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Choclait Chips (115g)",
+    "price": "2,29 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Nestlé Choco Crossies (140-150g)",
+    "price": "2,29 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Toblerone (100g)",
+    "price": "1,69 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Nestlé Riegel (4 - 6 Stück)",
+    "price": "1,99 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Sheba Portionsbeutel (85g)",
+    "price": "0,36 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Softlan Weichspüler (45 WL)",
+    "price": "1,15 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Persil Pulver (1 WL)",
+    "price": "0,23 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Persil Flüssig (1 WL)",
+    "price": "0,20 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Persil Discs (1 WL)",
+    "price": "0,27 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Lenor Pulver (1 WL)",
+    "price": "0,20 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Lenor Flüssig (1 WL)",
+    "price": "0,18 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Lenor Pods (1 WL)",
+    "price": "0,24 €",
+    "shop": "lidl"
+  },
+  {
+    "name": "Aoste Stickado (6 - 7 Stück)",
+    "price": "1,49 €",
+    "shop": "lidl"
+  }
+]
