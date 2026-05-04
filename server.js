@@ -1,9 +1,8 @@
-import fs from 'fs'; 
 import express from 'express'; 
 import {searchProduct} from './scrape.js';
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Test Route
 app.get('/', (req, res) => {
@@ -12,7 +11,7 @@ app.get('/', (req, res) => {
 
 // Server starten
 app.listen(PORT, () => {
-    console.log(`Server läuft auf http://localhost:${PORT}`);
+    console.log(`Server läuft auf auf Port ${PORT}`);
 });
 
 // API bauen

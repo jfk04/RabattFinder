@@ -18,12 +18,13 @@ const scrapeShop = async (shop) => {
             return {
                 name: name,
                 price: price,
-                shop: shop
+                shop: shop,
             }
         });
     }, shop);
 
     fs.writeFileSync(`${shop}_angebote.json`, JSON.stringify(artikel, null, 2));
+    console.log(`${shop} erfolgreich gescraped`);
 
     await browser.close();
 }
@@ -52,3 +53,8 @@ export function searchProduct(product){
     );
     return angebotsListe
 }
+
+scrapeShop('lidl');
+scrapeShop('rewe');
+scrapeShop('aldi-sued');
+//scrapeShop('norma');
