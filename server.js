@@ -17,7 +17,8 @@ app.listen(PORT, () => {
 // API bauen
 app.get('/angebote', async (req, res) => {
     //Suchbegriff aus der Query holen
-    const suchbegriff = req.query.suche?.toLowerCase() || '';
+    //Webanfrage : http://DEIN-SERVER:3000/angebote?suche=red%20bull
+    const suchbegriff = req.query.suche?.toLowerCase();
     console.log(suchbegriff);
     const angebotsListe = searchProduct(suchbegriff);
     console.log(angebotsListe);

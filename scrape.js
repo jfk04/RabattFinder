@@ -1,35 +1,36 @@
-import puppeteer from "puppeteer";
+import axios from "axios";
+import * as cheerio from "cheerio";
 import fs from 'fs';
 
+
+
 const scrapeShop = async (shop) => {
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
+    axios(`https://www.aktionspreis.de/prospekt/${shop}-angebote`)
+    .then(res => {
+        const htmlData = res.data;
+        const $ = cheerio.load(htmlData);
+        const products = [];
 
-    const url = `https://www.aktionspreis.de/prospekt/${shop}-angebote`;
-
-    await page.goto(url);
-
-    const artikel = await page.evaluate((shop) => {
-        const els = document.querySelectorAll('.w3-col.s9');
-        return Array.from(els).map(el =>{
-            const name = el.querySelector('[title]').getAttribute('title');
-            const price = el.querySelector('span b').textContent;
-
-            return {
-                name: name,
-                price: price,
-                shop: shop,
-            }
-        });
-    }, shop);
-
-    fs.writeFileSync(`${shop}_angebote.json`, JSON.stringify(artikel, null, 2));
-    console.log(`${shop} erfolgreich gescraped`);
-
-    await browser.close();
+        $('.w3-col.s9', htmlData).each((index, element) => {
+            const name = $(element).find('[title]').attr('title');
+            const price = $(element).find('span b').text();
+            //Prüfen, ob Produkt + Shop schon in der Liste
+            if(!products.some(p => p.name === name && p.shop === shop)){
+            products.push({
+                name,
+                price,
+                shop,
+                index
+            })}
+        })
+        //console.log(products);
+        fs.writeFileSync(`${shop}_angebote.json`, JSON.stringify(products, null, 2));
+        console.log(`${shop} erfolgreich gescraped`);
+    }).catch(err => console.error(err));
 }
 
 function getJSONFiles(){
+    //Alle json Files, in denen Angebote stehen auflisten
     const files = fs.readdirSync("./");
     const angebotFiles = files.filter(file =>
         file.includes("angebot") && file.endsWith(".json")
@@ -40,7 +41,7 @@ function getJSONFiles(){
 function searchJSON(file, product, angebotsListe){
     const data = JSON.parse(fs.readFileSync(file, "utf-8"));
     const result = data.filter(item => 
-        item.name.toLowerCase().includes(product)
+        item.name.toLowerCase().includes(product.toLowerCase())
     );
     angebotsListe.push(...result);
 }
@@ -51,10 +52,10 @@ export function searchProduct(product){
     files.forEach(file => 
         searchJSON(file, product, angebotsListe)
     );
+    //console.log(angebotsListe);
     return angebotsListe
 }
-
-scrapeShop('lidl');
-scrapeShop('rewe');
-scrapeShop('aldi-sued');
-//scrapeShop('norma');
+// scrapeShop('lidl');
+// scrapeShop('aldi-sued');
+// scrapeShop('rewe');
+//searchProduct('red bull');
