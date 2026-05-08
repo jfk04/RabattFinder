@@ -13,11 +13,11 @@ For the UI I used React Native with Expo and for the backend I used express <br>
 - 💸 Detect discounts and price drops
 - 🔔 Get notified when products go on sale
 
-## 📚 What I Learned
+## 📚 What I Learned so far
 - webscraping
 - to set up a server using express <br>
 - creating a mobile application with React Native <br>
-- spliting up and conenecting frontend and backend
+- spliting up and connecting frontend and backend
 - create an API for my server
 
 <!-- ## 🚀 Possible Improvements
