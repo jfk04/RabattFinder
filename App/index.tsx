@@ -17,7 +17,7 @@ type ButtonProps = {
 const getRabatte = async (product) => {
   console.log(product);
   const res = await fetch(
-    `http://192.168.178.23:3000/angebote?suche=${product}`,
+    `http://MyIP_Adress/angebote?suche=${product}`,
   );
   const angebote = await res.json();
   console.log(angebote);
