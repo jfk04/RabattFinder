@@ -1,8 +1,10 @@
 import express from 'express'; 
-import {searchProduct} from './scrape.js';
+import {searchProduct, scrapeShop} from './scrape.js';
+import cron from 'node-cron';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const SHOPS = ['lidl', 'rewe', 'aldi-sued'];
 
 // Test Route
 app.get('/', (req, res) => {
@@ -24,3 +26,12 @@ app.get('/angebote', async (req, res) => {
     console.log(angebotsListe);
     res.json(angebotsListe)
 })
+
+// Jeden Montag um 06:00 Uhr
+cron.schedule('0 6 * * 1', async () => {
+    console.log('Starte wöchentliches Scraping...');
+    for (const shop of SHOPS) {
+        await scrapeShop(shop);
+    }
+    console.log('Scraping abgeschlossen!');
+});

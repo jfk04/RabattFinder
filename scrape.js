@@ -2,9 +2,7 @@ import axios from "axios";
 import * as cheerio from "cheerio";
 import fs from 'fs';
 
-
-
-const scrapeShop = async (shop) => {
+export const scrapeShop = async (shop) => {
     axios(`https://www.aktionspreis.de/prospekt/${shop}-angebote`)
     .then(res => {
         const htmlData = res.data;
@@ -23,8 +21,14 @@ const scrapeShop = async (shop) => {
                 index
             })}
         })
-        //console.log(products);
-        fs.writeFileSync(`${shop}_angebote.json`, JSON.stringify(products, null, 2));
+        //Metadaten + Prdukte
+        fs.writeFileSync(`${shop}_angebote.json`, JSON.stringify({
+            _lastScraped: new Date().toLocaleString('de-DE'),
+            _shop: shop,
+            _productCount: products.length,
+            products
+
+        }, null, 2));
         console.log(`${shop} erfolgreich gescraped`);
     }).catch(err => console.error(err));
 }
@@ -40,7 +44,7 @@ function getJSONFiles(){
 
 function searchJSON(file, product, angebotsListe){
     const data = JSON.parse(fs.readFileSync(file, "utf-8"));
-    const result = data.filter(item => 
+    const result = data.products.filter(item => 
         item.name.toLowerCase().includes(product.toLowerCase())
     );
     angebotsListe.push(...result);
@@ -52,10 +56,6 @@ export function searchProduct(product){
     files.forEach(file => 
         searchJSON(file, product, angebotsListe)
     );
-    //console.log(angebotsListe);
+    console.log(angebotsListe);
     return angebotsListe
 }
-// scrapeShop('lidl');
-// scrapeShop('aldi-sued');
-// scrapeShop('rewe');
-//searchProduct('red bull');
