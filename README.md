@@ -5,7 +5,7 @@ This mobile application helps you to find discounts for the product you desire. 
 
 ## 🛠 Technnologies I used
 Only javascript/node.js <br>
-For the UI I used React Native with Expo and for the backend I used express <br> to set up a server. To get the data from the shops I uses puppeteer <br> to scrape the sites.
+For the UI I used React Native with Expo and for the backend I used express <br> to set up a server. To get the data from the shops I used axion and cheerio <br> to scrape the sites.
 
 ## ✨ Features
 - 🔍 Search and track specific food items
