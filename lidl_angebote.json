@@ -1,297 +1,415 @@
-[
-  {
-    "name": "Granini (1l)",
-    "price": "1,49 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Original Wagner Piccolinis (9 Stück)",
-    "price": "1,68 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Funny-Frisch Pombären (75-80g)",
-    "price": "1,11 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Arla Kaergarden (200g)",
-    "price": "1,49 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Milkana (190g)",
-    "price": "1,79 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Granini Trinkgenuss (1l)",
-    "price": "1,49 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Capri Sun (10 x 0,2l)",
-    "price": "3,49 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Gerolsteiner Mineralwasser (1,5l)",
-    "price": "0,89 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Coca-Cola Dose (0,33l)",
-    "price": "0,55 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Hella (0,75l)",
-    "price": "0,59 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Faxe (1l)",
-    "price": "1,79 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "San Miguel (0,33)",
-    "price": "0,67 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Nutella Croissant (4 x 85g)",
-    "price": "3,99 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Dr. Oetker Die Ofenfrische (382 - 435g)",
-    "price": "2,22 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Wagner Piccolinis (9 Stück)",
-    "price": "1,68 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Tradizionale Pizza (320 - 410g)",
-    "price": "2,22 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Arla Kaergarden (200g)",
-    "price": "1,49 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Milram Quark (185g)",
-    "price": "0,99 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Meggle Streichzart (400g)",
-    "price": "2,29 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Teekanne Ländertee (20 Stück)",
-    "price": "1,49 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Müller Milchreis (200g)",
-    "price": "0,59 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Zott Monte Snack (8 x 29g)",
-    "price": "1,99 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Choco Fresh (5 Stück)",
-    "price": "1,79 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Krüger Cappuccino (500g)",
-    "price": "2,79 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Dolce Gusto Kapseln (15 - 30 Stück)",
-    "price": "6,99 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Segafredo (1kg)",
-    "price": "12,88 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Exquisa (200g)",
-    "price": "1,11 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Milkana (190g)",
-    "price": "1,79 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Milram (125 - 175g)",
-    "price": "1,45 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Fol Epi Vorteilspack (11 Scheiben)",
-    "price": "2,99 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Rotkäppchen Grill&Pfanne (2x75g)",
-    "price": "2,49 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Saint Albray (180g)",
-    "price": "2,49 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Galbani Mozzarella (125g)",
-    "price": "1,11 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "yfood (500ml)",
-    "price": "2,99 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Bref Power (750ml)",
-    "price": "1,99 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Pombären (75-80g)",
-    "price": "1,11 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Funny-Frisch Kessel Chips (120g)",
-    "price": "1,49 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Freixenet Carta (0,75l)",
-    "price": "3,99 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Jules Mumm (0,75l)",
-    "price": "3,99 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "True Fruits Smoothie (250ml)",
-    "price": "1,16 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "True Fruits Smoothie (750ml)",
-    "price": "3,49 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Ouzo (0,7l)",
-    "price": "9,99 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Teacher's Whisky (0,7l)",
-    "price": "9,99 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Ouzo (1l)",
-    "price": "14,27 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Ferrero Hanuta (220g)",
-    "price": "2,79 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Amicelli (16 Stück)",
-    "price": "2,99 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Choclait Chips (115g)",
-    "price": "2,29 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Nestlé Choco Crossies (140-150g)",
-    "price": "2,29 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Toblerone (100g)",
-    "price": "1,69 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Nestlé Riegel (4 - 6 Stück)",
-    "price": "1,99 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Sheba Portionsbeutel (85g)",
-    "price": "0,36 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Softlan Weichspüler (45 WL)",
-    "price": "1,15 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Persil Pulver (1 WL)",
-    "price": "0,23 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Persil Flüssig (1 WL)",
-    "price": "0,20 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Persil Discs (1 WL)",
-    "price": "0,27 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Lenor Pulver (1 WL)",
-    "price": "0,20 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Lenor Flüssig (1 WL)",
-    "price": "0,18 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Lenor Pods (1 WL)",
-    "price": "0,24 €",
-    "shop": "lidl"
-  },
-  {
-    "name": "Aoste Stickado (6 - 7 Stück)",
-    "price": "1,49 €",
-    "shop": "lidl"
-  }
-]
+{
+  "_lastScraped": "11.5.2026, 14:08:00",
+  "_shop": "lidl",
+  "_productCount": 68,
+  "products": [
+    {
+      "name": "Rockstar (0,5l)",
+      "price": "0,50 €",
+      "shop": "lidl",
+      "index": 0
+    },
+    {
+      "name": "Dr. Oetker Pudding (3 x 37g)",
+      "price": "0,79 €",
+      "shop": "lidl",
+      "index": 1
+    },
+    {
+      "name": "Gazi Grill- und Pfannenkäse (2 x 100g)",
+      "price": "1,99 €",
+      "shop": "lidl",
+      "index": 2
+    },
+    {
+      "name": "Valensina (0,7 - 1l)",
+      "price": "1,49 €",
+      "shop": "lidl",
+      "index": 3
+    },
+    {
+      "name": "Maxi King (3 x 35g)",
+      "price": "1,59 €",
+      "shop": "lidl",
+      "index": 4
+    },
+    {
+      "name": "Schwip Schwap (1,25l)",
+      "price": "0,69 €",
+      "shop": "lidl",
+      "index": 7
+    },
+    {
+      "name": "7up (1,25l)",
+      "price": "0,69 €",
+      "shop": "lidl",
+      "index": 8
+    },
+    {
+      "name": "Gerolsteiner Wasser (1,5l)",
+      "price": "0,75 €",
+      "shop": "lidl",
+      "index": 9
+    },
+    {
+      "name": "7up (1l)",
+      "price": "0,55 €",
+      "shop": "lidl",
+      "index": 10
+    },
+    {
+      "name": "Schwip Schwap (1l)",
+      "price": "0,55 €",
+      "shop": "lidl",
+      "index": 11
+    },
+    {
+      "name": "Lipton Eistee (1,75l)",
+      "price": "ab 1,29 €",
+      "shop": "lidl",
+      "index": 12
+    },
+    {
+      "name": "Faxe (1l)",
+      "price": "1,79 €",
+      "shop": "lidl",
+      "index": 14
+    },
+    {
+      "name": "Desperados (1l)",
+      "price": "2,52 €",
+      "shop": "lidl",
+      "index": 15
+    },
+    {
+      "name": "Ferrero Nutella (1kg)",
+      "price": "7,49 €",
+      "shop": "lidl",
+      "index": 16
+    },
+    {
+      "name": "Vitalis (425 - 600g)",
+      "price": "2,49 €",
+      "shop": "lidl",
+      "index": 17
+    },
+    {
+      "name": "Langnese Cremissimo (825 - 1300ml)",
+      "price": "1,99 €",
+      "shop": "lidl",
+      "index": 18
+    },
+    {
+      "name": "Langnese Viennetta (650ml)",
+      "price": "1,99 €",
+      "shop": "lidl",
+      "index": 19
+    },
+    {
+      "name": "Conditorei Coppenrath & Wiese Cafeteria fein & sahnig (450g - 600g)",
+      "price": "3,99 €",
+      "shop": "lidl",
+      "index": 20
+    },
+    {
+      "name": "Nestlé Schöller Eis (288 - 450ml)",
+      "price": "1,99 €",
+      "shop": "lidl",
+      "index": 21
+    },
+    {
+      "name": "La Mia Grande (360 - 415g)",
+      "price": "3,49 €",
+      "shop": "lidl",
+      "index": 22
+    },
+    {
+      "name": "Cremefine (250ml)",
+      "price": "0,99 €",
+      "shop": "lidl",
+      "index": 23
+    },
+    {
+      "name": "Actimel (6 x 100g)",
+      "price": "1,67 €",
+      "shop": "lidl",
+      "index": 24
+    },
+    {
+      "name": "Weihenstephan Butter (250g)",
+      "price": "1,49 €",
+      "shop": "lidl",
+      "index": 25
+    },
+    {
+      "name": "Meggle Kräuterbutter (5 Stück)",
+      "price": "1,49 €",
+      "shop": "lidl",
+      "index": 26
+    },
+    {
+      "name": "Almighurt (150g)",
+      "price": "0,39 €",
+      "shop": "lidl",
+      "index": 27
+    },
+    {
+      "name": "Müller Milchreis (200g)",
+      "price": "0,59 €",
+      "shop": "lidl",
+      "index": 28
+    },
+    {
+      "name": "Paula Pudding (4 x 125g)",
+      "price": "1,49 €",
+      "shop": "lidl",
+      "index": 29
+    },
+    {
+      "name": "Zott Monte Snack (8 x 29g)",
+      "price": "1,99 €",
+      "shop": "lidl",
+      "index": 30
+    },
+    {
+      "name": "Ferrero Kinder Maxi King (3 x 35g)",
+      "price": "1,59 €",
+      "shop": "lidl",
+      "index": 31
+    },
+    {
+      "name": "Dallmayr Prodomo (500g)",
+      "price": "5,99 €",
+      "shop": "lidl",
+      "index": 32
+    },
+    {
+      "name": "Tassimo Kapseln (8 - 16 Stück)",
+      "price": "4,44 €",
+      "shop": "lidl",
+      "index": 33
+    },
+    {
+      "name": "Melitta Bella Crema (0,75 - 1kg)",
+      "price": "12,99 €",
+      "shop": "lidl",
+      "index": 34
+    },
+    {
+      "name": "Krüger Cappuccino (500g)",
+      "price": "2,79 €",
+      "shop": "lidl",
+      "index": 35
+    },
+    {
+      "name": "McCain Golden Longs (1kg)",
+      "price": "2,99 €",
+      "shop": "lidl",
+      "index": 36
+    },
+    {
+      "name": "Hela Ketchup (300ml)",
+      "price": "1,49 €",
+      "shop": "lidl",
+      "index": 37
+    },
+    {
+      "name": "Salatkrönung (5 Stück)",
+      "price": "0,79 €",
+      "shop": "lidl",
+      "index": 38
+    },
+    {
+      "name": "Schwarzkopf 3 Wetter taft Haarspray (400ml)",
+      "price": "4,45 €",
+      "shop": "lidl",
+      "index": 39
+    },
+    {
+      "name": "Loreal Men Expert Duschgel (250ml)",
+      "price": "1,49 €",
+      "shop": "lidl",
+      "index": 40
+    },
+    {
+      "name": "Autan (100ml)",
+      "price": "4,99 €",
+      "shop": "lidl",
+      "index": 41
+    },
+    {
+      "name": "Brunch (185g)",
+      "price": "1,29 €",
+      "shop": "lidl",
+      "index": 42
+    },
+    {
+      "name": "Gazi Grillkäse (2 x 100g)",
+      "price": "1,99 €",
+      "shop": "lidl",
+      "index": 43
+    },
+    {
+      "name": "Leerdammer Vorteilspack (13 Scheiben)",
+      "price": "2,99 €",
+      "shop": "lidl",
+      "index": 44
+    },
+    {
+      "name": "Philadelphia Family Pack (265g)",
+      "price": "1,79 €",
+      "shop": "lidl",
+      "index": 45
+    },
+    {
+      "name": "Weihenstephan H-Milch (1l)",
+      "price": "0,95 €",
+      "shop": "lidl",
+      "index": 46
+    },
+    {
+      "name": "yfood (500ml)",
+      "price": "2,69 €",
+      "shop": "lidl",
+      "index": 47
+    },
+    {
+      "name": "Delverde (500g)",
+      "price": "0,69 €",
+      "shop": "lidl",
+      "index": 48
+    },
+    {
+      "name": "Ajax Allzweckreiniger (1l)",
+      "price": "1,25 €",
+      "shop": "lidl",
+      "index": 49
+    },
+    {
+      "name": "Pringles (165 - 200g)",
+      "price": "1,79 €",
+      "shop": "lidl",
+      "index": 50
+    },
+    {
+      "name": "Funny-Frisch Erdnuss Flippies (175 - 200g)",
+      "price": "1,29 €",
+      "shop": "lidl",
+      "index": 51
+    },
+    {
+      "name": "Funny-Frisch Chips (80 - 90g)",
+      "price": "1,49 €",
+      "shop": "lidl",
+      "index": 52
+    },
+    {
+      "name": "Fürst Metternich (0,75l)",
+      "price": "5,99 €",
+      "shop": "lidl",
+      "index": 53
+    },
+    {
+      "name": "Vodka Absolut (0,7l)",
+      "price": "10,99 €",
+      "shop": "lidl",
+      "index": 54
+    },
+    {
+      "name": "Ballantine's (0,7l)",
+      "price": "10,99 €",
+      "shop": "lidl",
+      "index": 55
+    },
+    {
+      "name": "Jack Daniel's (0,7l)",
+      "price": "15,99 €",
+      "shop": "lidl",
+      "index": 56
+    },
+    {
+      "name": "Asbach Uralt (0,7l)",
+      "price": "9,99 €",
+      "shop": "lidl",
+      "index": 57
+    },
+    {
+      "name": "Jameson Whiskey (0,7l)",
+      "price": "14,99 €",
+      "shop": "lidl",
+      "index": 58
+    },
+    {
+      "name": "Jack Daniel's (1l)",
+      "price": "22,84 €",
+      "shop": "lidl",
+      "index": 59
+    },
+    {
+      "name": "Absolut Vodka (1l)",
+      "price": "15,70 €",
+      "shop": "lidl",
+      "index": 60
+    },
+    {
+      "name": "Asbach (1l)",
+      "price": "14,27 €",
+      "shop": "lidl",
+      "index": 61
+    },
+    {
+      "name": "Jameson (1l)",
+      "price": "21,41 €",
+      "shop": "lidl",
+      "index": 62
+    },
+    {
+      "name": "Celebrations (186g)",
+      "price": "2,99 €",
+      "shop": "lidl",
+      "index": 63
+    },
+    {
+      "name": "Ferrero Kinder Schokolade (100g)",
+      "price": "1,29 €",
+      "shop": "lidl",
+      "index": 64
+    },
+    {
+      "name": "Mars Minis (7 - 14 Stück)",
+      "price": "2,99 €",
+      "shop": "lidl",
+      "index": 65
+    },
+    {
+      "name": "Sheba Nassfutter (85g)",
+      "price": "ab 0,30 €",
+      "shop": "lidl",
+      "index": 66
+    },
+    {
+      "name": "Vernel Weichspüler (46-50 WL)",
+      "price": "2,49 €",
+      "shop": "lidl",
+      "index": 67
+    },
+    {
+      "name": "Ariel Waschpulver (1 WL)",
+      "price": "0,20 €",
+      "shop": "lidl",
+      "index": 68
+    },
+    {
+      "name": "Ariel Flüssig (1 WL)",
+      "price": "0,18 €",
+      "shop": "lidl",
+      "index": 69
+    },
+    {
+      "name": "Herta Finesse (100g)",
+      "price": "1,39 €",
+      "shop": "lidl",
+      "index": 70
+    }
+  ]
+}

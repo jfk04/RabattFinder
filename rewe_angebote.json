@@ -1,347 +1,367 @@
-[
-  {
-    "name": "Herta Finesse (100g)",
-    "price": "1,59 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Melitta Pads (16 Stück)",
-    "price": "1,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Volvic Wasser (1,5l)",
-    "price": "0,67 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Meisterröstung (500g)",
-    "price": "6,49 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Adelholzener Active O2 (0,75l)",
-    "price": "0,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Pepsi Cola (1,25l)",
-    "price": "0,88 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Lipton Ice Tea (1,25l)",
-    "price": "1,29 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Volvic Wasser (1,5l)",
-    "price": "0,67 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Adelholzener Active O2 (0,75l)",
-    "price": "0,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Schwip Schwap (1,25l)",
-    "price": "0,88 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Mirinda (1,25l)",
-    "price": "0,88 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "7up (1,25l)",
-    "price": "0,88 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Coca-Cola Kasten (12 x 1l)",
-    "price": "11,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Fanta Kasten (12 x 1l)",
-    "price": "11,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Sprite Kasten (12 x 1l)",
-    "price": "11,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Mezzo Mix Kasten (12 x 1l)",
-    "price": "11,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Pepsi (1l)",
-    "price": "0,70 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "7up (1l)",
-    "price": "0,70 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Schwip Schwap (1l)",
-    "price": "0,70 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Mirinda (1l)",
-    "price": "0,70 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Coca-Cola (1l)",
-    "price": "1,00 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Fanta (1l)",
-    "price": "1,00 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Sprite (1l)",
-    "price": "1,00 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Mezzo Mix (1l)",
-    "price": "1,00 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Mixery Dose (0,5l)",
-    "price": "0,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Karlsberg Mixery (1l)",
-    "price": "1,98 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Corona (6 x 0,355l)",
-    "price": "6,49 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Corona Bier (1l)",
-    "price": "3,05 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Ben and Jerrys (465ml)",
-    "price": "4,44 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Ofenfrische (382 - 435g)",
-    "price": "2,22 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "5 Minuten Terrine (43 - 78g)",
-    "price": "0,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Erasco (800g)",
-    "price": "1,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Dr. Oetker Tradizionale (320 - 410g)",
-    "price": "2,22 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Rügenwalder Mühle Veganes Pfannensortiment (2 Stück)",
-    "price": "2,49 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Rama Sooo Buttrig (225g)",
-    "price": "1,29 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Meggle Butter (250g)",
-    "price": "1,49 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Bärenmarke (1l)",
-    "price": "0,95 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Meggle Streichzart (250g)",
-    "price": "1,49 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Frosta Gemüsepfanne (480g)",
-    "price": "2,22 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Almighurt (150g)",
-    "price": "0,39 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Danone Activia (4 x 115g)",
-    "price": "1,49 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Dr. Oetker Sahne Pudding (500g)",
-    "price": "1,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Melitta Pads (16 Stück)",
-    "price": "1,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Jacobs Meisterröstung (500g)",
-    "price": "6,49 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Jacobs Auslese (500g)",
-    "price": "6,49 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Knorr Fix (26 - 100g)",
-    "price": "0,49 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Bonduelle Goldmais (425ml)",
-    "price": "1,19 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "L'Oréal Elvital Spülung (250ml)",
-    "price": "2,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "L'Oréal Elvital Shampoo (300ml)",
-    "price": "2,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Milram (125 - 175g)",
-    "price": "1,39 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Mini Babybel (180g)",
-    "price": "2,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Bärenmarke H-Milch (1l)",
-    "price": "0,95 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Ben's Original Express (220 - 250g)",
-    "price": "1,49 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Tempo Taschentücher (15 x 10 Stück)",
-    "price": "1,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Chio Tortillas (110g)",
-    "price": "1,11 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Chio Popcorn (120g)",
-    "price": "1,11 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "True Fruits Smoothie (250ml)",
-    "price": "2,29 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Bacardi Razz (0,7l)",
-    "price": "10,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Ouzo 12 (0,7l)",
-    "price": "9,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Bacardi (1l)",
-    "price": "15,70 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Ouzo (1l)",
-    "price": "14,27 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Corny (4 - 6 Stück)",
-    "price": "1,79 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Ritter Sport Nussklasse (100g)",
-    "price": "1,69 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Lenor Flüssig (20 WL)",
-    "price": "4,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Softlan Weichspüler (45 WL)",
-    "price": "1,29 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Lenor Pods (301,5g)",
-    "price": "4,99 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Lenor Flüssig (1 WL)",
-    "price": "0,24 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Lenor Pods (1 WL)",
-    "price": "0,33 €",
-    "shop": "rewe"
-  },
-  {
-    "name": "Finesse (100g)",
-    "price": "1,59 €",
-    "shop": "rewe"
-  }
-]
+{
+  "_lastScraped": "11.5.2026, 14:08:00",
+  "_shop": "rewe",
+  "_productCount": 60,
+  "products": [
+    {
+      "name": "Dr. Oetker Ristorante (235 - 485g)",
+      "price": "1,79 €",
+      "shop": "rewe",
+      "index": 0
+    },
+    {
+      "name": "Spee (990 ml)",
+      "price": "3,49 €",
+      "shop": "rewe",
+      "index": 1
+    },
+    {
+      "name": "Nutella (750g)",
+      "price": "3,79 €",
+      "shop": "rewe",
+      "index": 2
+    },
+    {
+      "name": "5 Minuten Terrine (43 - 78g)",
+      "price": "0,99 €",
+      "shop": "rewe",
+      "index": 3
+    },
+    {
+      "name": "Knorr Grillsauce (250ml)",
+      "price": "0,99 €",
+      "shop": "rewe",
+      "index": 4
+    },
+    {
+      "name": "Red Bull (0,25l)",
+      "price": "0,99 €",
+      "shop": "rewe",
+      "index": 5
+    },
+    {
+      "name": "Pepsi Cola (1,25l)",
+      "price": "0,79 €",
+      "shop": "rewe",
+      "index": 6
+    },
+    {
+      "name": "Valensina (0,7 - 1l)",
+      "price": "1,79 €",
+      "shop": "rewe",
+      "index": 7
+    },
+    {
+      "name": "Schwip Schwap (1,25l)",
+      "price": "0,79 €",
+      "shop": "rewe",
+      "index": 8
+    },
+    {
+      "name": "Mirinda (1,25l)",
+      "price": "0,79 €",
+      "shop": "rewe",
+      "index": 9
+    },
+    {
+      "name": "7up (1,25l)",
+      "price": "0,79 €",
+      "shop": "rewe",
+      "index": 10
+    },
+    {
+      "name": "Pepsi (1l)",
+      "price": "0,63 €",
+      "shop": "rewe",
+      "index": 11
+    },
+    {
+      "name": "7up (1l)",
+      "price": "0,63 €",
+      "shop": "rewe",
+      "index": 12
+    },
+    {
+      "name": "Schwip Schwap (1l)",
+      "price": "0,63 €",
+      "shop": "rewe",
+      "index": 13
+    },
+    {
+      "name": "Mirinda (1l)",
+      "price": "0,63 €",
+      "shop": "rewe",
+      "index": 14
+    },
+    {
+      "name": "Corona (6 x 0,355l)",
+      "price": "5,99 €",
+      "shop": "rewe",
+      "index": 15
+    },
+    {
+      "name": "Corona Bier (1l)",
+      "price": "2,81 €",
+      "shop": "rewe",
+      "index": 16
+    },
+    {
+      "name": "Conditorei Coppenrath & Wiese Lust auf Kuchen (525 - 580g)",
+      "price": "3,79 €",
+      "shop": "rewe",
+      "index": 18
+    },
+    {
+      "name": "Cornetto Eis (360 - 560ml)",
+      "price": "2,99 €",
+      "shop": "rewe",
+      "index": 19
+    },
+    {
+      "name": "Nuii Eis (270ml)",
+      "price": "2,29 €",
+      "shop": "rewe",
+      "index": 20
+    },
+    {
+      "name": "Maggi 5 Minuten Terrine (43 - 78g)",
+      "price": "0,99 €",
+      "shop": "rewe",
+      "index": 22
+    },
+    {
+      "name": "Rügenwalder Mühle Veganes Pfannensortiment (2 Stück)",
+      "price": "2,49 €",
+      "shop": "rewe",
+      "index": 23
+    },
+    {
+      "name": "Apostels Zaziki (200g)",
+      "price": "0,99 €",
+      "shop": "rewe",
+      "index": 24
+    },
+    {
+      "name": "Milram Buttermilch (750ml)",
+      "price": "1,29 €",
+      "shop": "rewe",
+      "index": 25
+    },
+    {
+      "name": "Iglo Filegro (240 - 250g)",
+      "price": "2,99 €",
+      "shop": "rewe",
+      "index": 26
+    },
+    {
+      "name": "Iglo Schlemmer-Filet (380g)",
+      "price": "2,99 €",
+      "shop": "rewe",
+      "index": 27
+    },
+    {
+      "name": "Frosta Gemüsepfanne (480g)",
+      "price": "2,22 €",
+      "shop": "rewe",
+      "index": 28
+    },
+    {
+      "name": "Müller Milchreis (200g)",
+      "price": "0,49 €",
+      "shop": "rewe",
+      "index": 29
+    },
+    {
+      "name": "Bauer Der große Bauer (250g)",
+      "price": "0,55 €",
+      "shop": "rewe",
+      "index": 30
+    },
+    {
+      "name": "Weihenstephan Fruchtquark (500g)",
+      "price": "1,69 €",
+      "shop": "rewe",
+      "index": 31
+    },
+    {
+      "name": "Melitta Auslese (500g)",
+      "price": "6,49 €",
+      "shop": "rewe",
+      "index": 32
+    },
+    {
+      "name": "McCain 1-2-3 Frites Orginal (750g)",
+      "price": "1,59 €",
+      "shop": "rewe",
+      "index": 33
+    },
+    {
+      "name": "Knorr Sauce (250ml)",
+      "price": "0,99 €",
+      "shop": "rewe",
+      "index": 34
+    },
+    {
+      "name": "Miracel Whip (500ml)",
+      "price": "1,49 €",
+      "shop": "rewe",
+      "index": 35
+    },
+    {
+      "name": "Thomy Hollandaise (250ml)",
+      "price": "0,99 €",
+      "shop": "rewe",
+      "index": 36
+    },
+    {
+      "name": "Barilla Pesto (190 - 200g)",
+      "price": "1,79 €",
+      "shop": "rewe",
+      "index": 37
+    },
+    {
+      "name": "Barilla Pastasaucen (400g)",
+      "price": "1,79 €",
+      "shop": "rewe",
+      "index": 38
+    },
+    {
+      "name": "Thomy Delikatess-Mayonnaise (200ml)",
+      "price": "1,79 €",
+      "shop": "rewe",
+      "index": 39
+    },
+    {
+      "name": "Kühne Gurken (720ml)",
+      "price": "1,79 €",
+      "shop": "rewe",
+      "index": 40
+    },
+    {
+      "name": "Colgate Total (75ml)",
+      "price": "2,79 €",
+      "shop": "rewe",
+      "index": 41
+    },
+    {
+      "name": "Milram (125 - 175g)",
+      "price": "1,39 €",
+      "shop": "rewe",
+      "index": 42
+    },
+    {
+      "name": "Miree (135-150g)",
+      "price": "1,11 €",
+      "shop": "rewe",
+      "index": 43
+    },
+    {
+      "name": "Rougette Grillkäse (180g)",
+      "price": "2,69 €",
+      "shop": "rewe",
+      "index": 44
+    },
+    {
+      "name": "Lätta (450g)",
+      "price": "1,29 €",
+      "shop": "rewe",
+      "index": 45
+    },
+    {
+      "name": "Zewa Wisch und Weg (4 x 45 Blatt)",
+      "price": "2,59 €",
+      "shop": "rewe",
+      "index": 46
+    },
+    {
+      "name": "Carefree Slipeinlagen (40 - 58 Stück)",
+      "price": "2,29 €",
+      "shop": "rewe",
+      "index": 47
+    },
+    {
+      "name": "Zewa Ultra Soft (8 x 150 Blatt)",
+      "price": "3,99 €",
+      "shop": "rewe",
+      "index": 48
+    },
+    {
+      "name": "Pringles (165 - 200g)",
+      "price": "1,89 €",
+      "shop": "rewe",
+      "index": 49
+    },
+    {
+      "name": "Chipsfrisch (150g)",
+      "price": "1,19 €",
+      "shop": "rewe",
+      "index": 50
+    },
+    {
+      "name": "Innocent (900ml)",
+      "price": "2,69 €",
+      "shop": "rewe",
+      "index": 51
+    },
+    {
+      "name": "Bacardi Razz (0,7l)",
+      "price": "10,99 €",
+      "shop": "rewe",
+      "index": 52
+    },
+    {
+      "name": "Aperol (0,7l)",
+      "price": "9,49 €",
+      "shop": "rewe",
+      "index": 53
+    },
+    {
+      "name": "Bacardi (1l)",
+      "price": "15,70 €",
+      "shop": "rewe",
+      "index": 54
+    },
+    {
+      "name": "Captain Morgan (1l)",
+      "price": "0,00 €",
+      "shop": "rewe",
+      "index": 55
+    },
+    {
+      "name": "Aperol (1l)",
+      "price": "13,56 €",
+      "shop": "rewe",
+      "index": 56
+    },
+    {
+      "name": "De Beukelaer Prinzenrolle (352 - 400g)",
+      "price": "1,79 €",
+      "shop": "rewe",
+      "index": 57
+    },
+    {
+      "name": "Storck Knoppers (8 x 25g)",
+      "price": "1,69 €",
+      "shop": "rewe",
+      "index": 58
+    },
+    {
+      "name": "Purina One (750g)",
+      "price": "2,99 €",
+      "shop": "rewe",
+      "index": 59
+    },
+    {
+      "name": "Purina One (85g)",
+      "price": "0,59 €",
+      "shop": "rewe",
+      "index": 60
+    },
+    {
+      "name": "Spee Flüssig (1 WL)",
+      "price": "0,17 €",
+      "shop": "rewe",
+      "index": 62
+    }
+  ]
+}
