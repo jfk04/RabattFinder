@@ -22,7 +22,7 @@ type ButtonProps = {
 const getRabatte = async (product, navigation) => {
   console.log(product);
   const res = await fetch(
-    `http://145.223.117.130:3000/angebote?suche=${product}`,
+    `API-Anfrage`,
   );
   const angebote = await res.json();
   if (angebote.length === 0) {
