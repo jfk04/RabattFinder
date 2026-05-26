@@ -1,5 +1,8 @@
+import { useNavigation } from "@react-navigation/native";
 import { useState } from "react";
 import {
+  Alert,
+  FlatList,
   StyleSheet,
   Text,
   TextInput,
@@ -13,17 +16,20 @@ type ButtonProps = {
   // textstyle: any;
   onPress: () => void;
 };
-
-const getRabatte = async (product) => {
+//@ts-ignore
+const getRabatte = async (product, navigation) => {
   console.log(product);
   const res = await fetch(
-    `http://MyIP_Adress/angebote?suche=${product}`,
+    `http://145.223.117.130:3000/angebote?suche=${product}`,
   );
   const angebote = await res.json();
+  if (angebote.length === 0) {
+    Alert.alert("Keine Angebote gefunden");
+    return;
+  }
+  navigation.navigate("angebote", { angebote: angebote });
   console.log(angebote);
 };
-
-function formatRequest() {}
 
 function Button({ style, text, onPress }: ButtonProps) {
   return (
@@ -33,21 +39,60 @@ function Button({ style, text, onPress }: ButtonProps) {
   );
 }
 
+//@ts-ignore
 export default function Index() {
-  const [text, setText] = useState("Suchen");
+  const navigation = useNavigation();
+  const placeholder = "Produkt";
+  const [showMessage, setShowMessage] = useState(false);
+  const [text, setText] = useState(placeholder);
+  const [vorschlaege, setVorschlaege] = useState([]);
+
+  // const handleEingabe = (text) => {
+  //   setText(text);
+  //   if (text.length > 0) {
+  //     const gefiltert = VORSCHLAEGE.filter((v) =>
+  //       v.toLowerCase().includes(text.toLowerCase()),
+  //     );
+  //     setVorschlaege(gefiltert);
+  //   } else {
+  //     setVorschlaege([]);
+  //   }
+  // };
+
   return (
     <View
       style={{
         flex: 1,
-        justifyContent: "center",
+        //justifyContent: "center",
         alignItems: "center",
       }}
     >
-      <TextInput value={text} onChangeText={setText}></TextInput>
+      <Text style={styles.text}>Nach welchem Produkt möchtest du suchen?</Text>
+      <TextInput placeholder={placeholder} onChangeText={setText}></TextInput>
+      <FlatList
+        style={{ width: "100%", maxHeight: 200, backgroundColor: "red" }}
+        data={["Coca-Cola", "Red Bull", "Monster", "Fanta", "Sprite"]}
+        renderItem={({ item }) => (
+          <TouchableOpacity
+            onPress={() => {
+              setText(item);
+            }}
+          >
+            <Text style={{ width: "100%", padding: 10 }}>{item}</Text>
+          </TouchableOpacity>
+        )}
+      />
+      <Text></Text>
       <Button
         style={styles.button}
-        text="Go"
-        onPress={() => getRabatte(text)}
+        text="Suchen"
+        onPress={() => {
+          if (text === "Produkt") {
+            Alert.alert("Fehler", "Produktname darf nicht leer sein");
+          } else {
+            getRabatte(text, navigation);
+          }
+        }}
       ></Button>
     </View>
   );
@@ -55,12 +100,15 @@ export default function Index() {
 
 const styles = StyleSheet.create({
   button: {
-    flex: 1,
     margin: 1,
     backgroundColor: "#0040ff",
     justifyContent: "center",
     alignItems: "center",
     fontSize: 40,
-    height: 63,
+    width: 200,
+    height: 40,
+  },
+  text: {
+    fontSize: 18,
   },
 });
